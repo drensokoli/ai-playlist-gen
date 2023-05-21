@@ -298,6 +298,11 @@
     "picocolors" "^1.0.0"
     "tslib" "^2.5.0"
 
+"@popperjs/core@^2.11.2":
+  "integrity" "sha512-Cr4OjIkipTtcXKjAsm8agyleBuDHvxzeBoa1v543lbv1YaIwQjESsVcmjiWiPEbC1FIeHOG/Op9kdCmAmiS3Kw=="
+  "resolved" "https://registry.npmjs.org/@popperjs/core/-/core-2.11.7.tgz"
+  "version" "2.11.7"
+
 "@rushstack/eslint-patch@^1.1.3":
   "integrity" "sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg=="
   "resolved" "https://registry.npmjs.org/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz"
@@ -2418,6 +2423,13 @@
     "picocolors" "^1.0.0"
     "source-map-js" "^1.0.2"
 
+"preline@^1.8.0":
+  "integrity" "sha512-guttn86Fc/+AbvN9oKcr2z3zU7DL3Q5dl7nhcR4nTi5F02LXQc7WIYwgIXMR97kymCs52feiju6glXO3dUIpvA=="
+  "resolved" "https://registry.npmjs.org/preline/-/preline-1.8.0.tgz"
+  "version" "1.8.0"
+  dependencies:
+    "@popperjs/core" "^2.11.2"
+
 "prelude-ls@^1.2.1":
   "integrity" "sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g=="
   "resolved" "https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.2.1.tgz"
@@ -2646,6 +2658,11 @@
   "integrity" "sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA=="
   "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.7.4.tgz"
   "version" "0.7.4"
+
+"spotify-web-api-js@^1.5.2":
+  "integrity" "sha512-ie1gbg1wCabfobIkXTIBLUMyULS/hMCpF44Cdx2pAO0/+FrjhNSDjlDzcwCEDy+ZIo3Fscs+Gkg/GTeQ/ijo+Q=="
+  "resolved" "https://registry.npmjs.org/spotify-web-api-js/-/spotify-web-api-js-1.5.2.tgz"
+  "version" "1.5.2"
 
 "stop-iteration-iterator@^1.0.0":
   "integrity" "sha512-iCGQj+0l0HOdZ2AEeBADlsRC+vsnDsZsbdSiH1yNSjcfKM7fdpCMfqAL/dwF5BLiw/XhRft/Wax6zQbhq2BcjQ=="

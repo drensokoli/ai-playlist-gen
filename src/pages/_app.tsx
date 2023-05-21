@@ -1,14 +1,23 @@
-import Navbar from '../components/Navbar'
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+  import { useEffect } from 'react'
+  import Navbar from '../components/Navbar'
+  import '../styles/globals.css'
+  import type { AppProps } from 'next/app'
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return (
-    <>
-      <Navbar />
-      <Component {...pageProps} />
-    </>
-  )
-}
+  declare module 'preline';
 
-export default MyApp
+
+  function MyApp({ Component, pageProps }: AppProps) {
+  
+    useEffect(() => {
+      import('preline')
+    }, [])
+
+    return (
+      <>
+        <Navbar />
+        <Component {...pageProps} />
+      </>
+    )
+  }
+
+  export default MyApp
